@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.superprofan.housemddiagnostics.MainActivity"
+    android:weightSum="10">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:layout_margin="5dp"
+        android:text="@string/symptoms"
+        android:layout_weight="1"/>
+
+    <com.superprofan.housemddiagnostics.MKEditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/houseButton"
+        android:layout_margin="5dp"
+        android:layout_weight="2"
+        />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/ivResult"
+        android:layout_weight="5"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_margin="5dp"
+        android:id="@+id/tvResult"/>
+
+</LinearLayout>
